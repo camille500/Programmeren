@@ -1,0 +1,285 @@
+@import url(http://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700|PT+Sans:400,700|Quicksand:300,400,700|Ubuntu:300,400,500|Hind:400,500,300,600|Numans|Raleway:400,500,100,300,200,600);
+
+body {
+	background-color: #213a40;
+}
+
+#header {
+	
+}
+
+#navigation {
+	
+}
+
+#nav-ulist {
+	
+}
+
+#nav-list {
+	
+	list-style: none;
+	
+}
+
+#maincontent {
+	
+}
+
+h1, h2, h3, h4 {
+	color: #ca9b4b;
+	font-family: 'Hind', sans-serif;
+	font-weight: 600;
+	text-align:center;
+}
+
+
+#todo2 h4 {
+	color: white;
+	padding-top: 15px;
+}
+
+#todo1 h4 {
+	color: black;
+	padding-top: 15px;
+}
+
+p {
+	color: #FFF9FA;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+
+#todo1 {
+	width: 85%;
+	height: auto;
+	background-color: white;
+	font-family: 'Rajdhani', sans-serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+} 
+
+#todo2 {
+	width: 85%;
+	height: auto;
+	background-color: #AF0C0F;
+	font-family: 'Rajdhani', sans-serif;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7x;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#todo2 p {
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 8%;
+  display: inline;
+  padding-right: 27%;
+}
+
+p#test {
+  padding-left: 30%;
+}
+
+#copyright {
+	text-align: center;
+	float: none;
+}
+
+.dlt {
+  width: 10%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.dltP {
+  width: 10%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.list4 {
+  width: 10%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-align: left;
+  }
+
+.list3 {
+  width: 60%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.list1 {
+  width: 60%;
+  display: inline-block;
+  text-align: left;
+}
+
+.list2 {
+   width: 10%;
+   display: inline-block;
+   text-align: left;
+}
+
+.txt-prior {
+  list-style-type: none;
+  height: 25px;
+  text-align: center;
+  color: white;
+}
+
+.date-prior {
+  list-style-type: none;
+  height: 25px;
+  text-align: center;
+  color: white;
+}
+
+#trsh {
+	list-style-type: none;
+	height: 25px;
+    text-align: center;
+	color: white;
+}
+
+.txt-normal {
+  list-style-type: none;
+  height: 25px;
+  text-align: center;
+}
+
+.date-normal {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 25px;
+  text-align: center;
+}
+
+#form-div {
+  align-content: center;
+  color: white;
+  line-height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 115px;
+  margin-bottom: 10px;
+  background-color: #2d4d53;
+  text-align: center;
+  padding-top: 10px;
+}
+
+button#send {
+  width: 120px;
+  height: 25px;
+  font: 300;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+#nieuwetaak {
+  margin-right: 5px;
+  margin-left: 30px;
+}
+
+#deadline {
+	margin-right:5px;
+	margin-left: 8px;
+}
+
+#begroeting {
+	font-size: 25px;
+}
+
+#dlt1 {
+	list-style-type: none;
+}
+
+#dlt2 {
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+#list-txt, #nieuwetaak, #deadline {
+	font-family: 'Hind', sans-serif;
+	font-weight: 600;
+}
+
+
+div#popup {
+  display: none;
+  background-color: #0D2328;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  bottom: 25%;
+  right: 25%;
+  width: 500px;
+  height: 175px;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  border: 3px rgba(255,255,255,0.9) outset;
+  border-radius: 8px;
+}
+
+#pnee {
+	width: 200px;
+	height: 45px;
+	margin-left: 12px;
+	position: absolute;
+	top: 70%;	
+	background-color: #AF0B0E;
+	border: 1px white solid;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#pja {
+	width: 200px;
+	height: 45px;
+	margin-left: 75px;
+	background-color:#213A3F;
+	position: absolute;
+	top: 70%;
+	right: 4%;
+	border: 1px white solid;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.choice {
+	display: inline-block;
+}
+
+#p1, #p2 {
+	color: white;
+	margin-top: 50px;
+	font-size:17px;
+	font-weight: 500;
+}

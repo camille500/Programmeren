@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+  <html lang="nl">
+
+    <head>
+
+      <meta charset="UTF-8">
+      <title>Untitled Document</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/core.js"></script>
+
+
+    </head>
+
+    <body >
+
+      <div id="header">
+      </div>
+
+      	<div id="maincontent">
+
+      		<h3 id="begroeting"></h3>
+
+            	<div id="form-div">
+
+            <p id="list-txt">Voeg een nieuw item toe:</p>
+
+            	<form id="newInputForm"  >
+
+                    <label id="nieuwetaak">Nieuwe taak:</label>
+                    <input type="text" placeholder="Voeg een nieuw item toe aan de to-do-list" id="newText" size="80">
+                    <label id="deadline">Deadline:</label>
+                    <input type="date" id="newDate" placeholder="DD-MM-JJJJ" formenctype="application/x-www-form-urlencoded">
+                    <button type="button" id="send">Voeg toe</button>
+
+                </form>
+
+                </div>
+
+                     <div id="listgroup">
+
+
+                     <div id="todo2">
+
+                     <h4>Taken die binnen 3 dagen verlopen:</h4>
+
+               		 <ul id="dlt1" class="dltP">
+
+                     </ul>
+                     <ul id="listText2" class="list3">
+
+                     </ul>
+                     <ul id="listDate2" class="list4">
+
+                     </ul>
+
+              </div>
+
+                    <div id="todo1">
+
+                     <h4>To-Do-List:</h4>
+
+               		 <ul id="dlt2" class="dlt">
+
+                     </ul>
+                     <ul id="listText1" class="list1">
+
+                     </ul>
+                     <ul id="listDate1" class="list2">
+
+                     </ul>
+
+              </div>
+      </div>
+
+      <div id="popup" class="popup_delete">
+
+      	<p id='p1'>Weet u zeker dat u deze taak wilt verwijderen?</p>
+
+        <button id="pnee" class="choice" onclick="DeleteItem(getParent)">Nee, verwijder niet</button>
+        <button id="pja" class="choice" onClick="getParent">Ja, verwijder taak</button>
+
+      </div>
+      </div>
+
+      <footer>
+
+        <p id="copyright"></p>
+
+      </footer>
+
+      <script type="text/javascript" src="js/time.js"></script>
+      <script type="text/javascript" src="js/list-function2.js"></script>
+
+
+    </body>
+
+  </html>
